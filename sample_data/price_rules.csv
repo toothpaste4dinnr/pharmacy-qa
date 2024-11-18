@@ -1,0 +1,8 @@
+medication_id,insurance_type,discount_percentage,min_copay,max_copay,coverage_status,effective_date,expiration_date,tier
+MED001,Commercial,80.0,5.0,25.0,Covered,2024-01-01,2024-12-31,1
+MED004,Commercial,70.0,30.0,75.0,Prior Authorization Required,2024-01-01,2024-12-31,3
+MED007,Commercial,60.0,100.0,500.0,Prior Authorization Required,2024-01-01,2024-12-31,4
+MED001,Medicare,85.0,3.0,20.0,Covered,2024-01-01,2024-12-31,1
+MED004,Medicare,75.0,25.0,65.0,Step Therapy Required,2024-01-01,2024-12-31,3
+MED001,Medicaid,90.0,1.0,15.0,Covered,2024-01-01,2024-12-31,1
+MED007,Medicaid,95.0,3.0,25.0,Prior Authorization Required,2024-01-01,2024-12-31,4
